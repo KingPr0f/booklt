@@ -72,11 +72,15 @@ a {
 .select-custom select option {
     color: #000;
 }
+.header {
+    color: #F5F5F5;
+}
+
 /* Header START */
 .header-row {
     display: flex;
     align-items: center;
-    color:#F5F5F5;
+    
     padding: 16px 0px;
 }
 
@@ -126,5 +130,20 @@ a {
     margin-right: 16px;
 }
 
+.header-bottom {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav ul {
+    display: flex;
+}
+.header-nav ul li {
+    display: inline block;
+}
+.header-nav ul li:nth-last-child {
+ margin-right: 40px;
+}
 
 /* header END */
