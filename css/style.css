@@ -142,7 +142,7 @@ a {
 .header-nav ul li {
     display: inline block;
 }
-.header-nav ul li:nth-last-child {
+.header-nav ul li:nth-last-child(n+2) {
  margin-right: 40px;
 }
 
