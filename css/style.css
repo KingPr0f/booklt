@@ -124,6 +124,7 @@ a {
 }
 .header-btn.is-active {
     border: 1px solid #E0B100;
+    min-height: 32px;
 }
 
 .header-btn:first-child {
